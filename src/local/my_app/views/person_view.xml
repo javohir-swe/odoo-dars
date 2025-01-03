@@ -43,7 +43,6 @@
             </field>
         </record>
 
-        <menuitem name="Person" id="my_person" parent="my_app.menu_root" action="action_my_person"/>
 
     </data>
 </odoo>

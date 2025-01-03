@@ -14,8 +14,9 @@
     "data": [
         "security/ir.model.access.csv",
         "views/my_model_view.xml",
-        "views/person_view.xml"
-        # 'views/templates.xml',
+        "views/person_view.xml",
+        "views/fields_view.xml",
+        "views/menuitems.xml",
     ],
     # only loaded in demonstration mode
     # 'demo': [

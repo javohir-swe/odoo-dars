@@ -7,13 +7,5 @@
         <field name="res_model">my.model</field>
         <field name="view_mode">tree,form</field>
     </record>
-
-
-<!--     Top menu item -->
-
-    <menuitem name="My App" id="my_app.menu_root"/>
-
-    <menuitem name="My Model's data" id="my_module" parent="my_app.menu_root" action="my_module_action_window"/>
-
   </data>
 </odoo>
