@@ -3,6 +3,7 @@
 
         <menuitem name="My Model's data" id="my_module" action="my_module_action_window"/>
         <menuitem name="Person" id="my_person" action="action_my_person"/>
+        <menuitem name="Widgets" id="my_widgets" action="action_my_widgets"/>
 
         <menuitem name="Relations" id="menu_relations" sequence="1">
             <!-- Menu Items -->

@@ -17,6 +17,7 @@
         "views/person_view.xml",
         "views/fields_view.xml",
         "views/menuitems.xml",
+        "views/widgets_view.xml",
     ],
     # only loaded in demonstration mode
     # 'demo': [

@@ -8,3 +8,4 @@ my_app.access_shop_order,access_shop_order,my_app.model_shop_order,base.group_us
 my_app.access_shop_customer,access_shop_customer,my_app.model_shop_customer,base.group_user,1,1,1,1
 my_app.access_academy_course,access_academy_course,my_app.model_academy_course,base.group_user,1,1,1,1
 my_app.access_academy_student,access_academy_student,my_app.model_academy_student,base.group_user,1,1,1,1
+my_app.access_my_widgets,access_my_widgets,my_app.model_my_widgets,base.group_user,1,1,1,1
