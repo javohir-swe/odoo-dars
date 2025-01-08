@@ -1,0 +1,58 @@
+<odoo>
+    <!-- Teglar uchun demo ma'lumotlar -->
+    <record id="custom_tag_1" model="custom.tag">
+        <field name="name">Urgent</field>
+        <field name="color">2</field>
+    </record>
+    <record id="custom_tag_2" model="custom.tag">
+        <field name="name">Important</field>
+        <field name="color">3</field>
+    </record>
+    <record id="custom_tag_3" model="custom.tag">
+        <field name="name">Optional</field>
+        <field name="color">1</field>
+    </record>
+
+    <!-- Custom Model uchun demo ma'lumotlar -->
+    <record id="custom_model_1" model="custom.model">
+        <field name="name">John Doe</field>
+        <field name="date_of_birth">1990-01-01</field>
+        <field name="address">123 Main St, New York</field>
+        <field name="phone">+1 555-1234</field>
+        <field name="email">john.doe@example.com</field>
+        <field name="job_position">Software Engineer</field>
+        <field name="salary">75000</field>
+        <field name="status">active</field>
+        <field name="description"><![CDATA[<p>This is a demo description for John Doe.</p>]]></field>
+        <field name="tags" eval="[(6, 0, [ref('custom_tag_1'), ref('custom_tag_2')])]"/>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="custom_model_2" model="custom.model">
+        <field name="name">Jane Smith</field>
+        <field name="date_of_birth">1985-05-15</field>
+        <field name="address">456 Market St, San Francisco</field>
+        <field name="phone">+1 555-5678</field>
+        <field name="email">jane.smith@example.com</field>
+        <field name="job_position">Project Manager</field>
+        <field name="salary">90000</field>
+        <field name="status">draft</field>
+        <field name="description"><![CDATA[<p>This is a demo description for Jane Smith.</p>]]></field>
+        <field name="tags" eval="[(6, 0, [ref('custom_tag_2'), ref('custom_tag_3')])]"/>
+        <field name="sequence">2</field>
+    </record>
+
+    <record id="custom_model_3" model="custom.model">
+        <field name="name">Mike Brown</field>
+        <field name="date_of_birth">1995-07-10</field>
+        <field name="address">789 Elm St, Chicago</field>
+        <field name="phone">+1 555-9012</field>
+        <field name="email">mike.brown@example.com</field>
+        <field name="job_position">Data Analyst</field>
+        <field name="salary">65000</field>
+        <field name="status">inactive</field>
+        <field name="description"><![CDATA[<p>This is a demo description for Mike Brown.</p>]]></field>
+        <field name="tags" eval="[(6, 0, [ref('custom_tag_1'), ref('custom_tag_3')])]"/>
+        <field name="sequence">3</field>
+    </record>
+</odoo>
